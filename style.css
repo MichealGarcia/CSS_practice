@@ -1,1 +1,32 @@
 
+/* text align in CSS */
+
+h2 {
+    text-align: right;
+    /* text align only operates within the content of box. *lookup more info. */
+    width: 50%;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    /* font weight is lightness or boldness */
+    /* normal will make a header into its normal weight */
+    /* 400 is normal */
+    font-weight: normal;
+    /* you can add a line-through in the text, change teh color of it
+    and then mess with the actual line "shape */
+    text-decoration: orange underline wavy;
+}
+
+a {
+    /* removes underline from reference text/hyperlink */
+    text-decoration: none;
+    letter-spacing: 10px;
+}
+
+/* messing with line height (spacing), and letter spacing */
+
+p {
+    line-height: 2;
+}
