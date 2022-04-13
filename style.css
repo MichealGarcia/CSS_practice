@@ -1,4 +1,3 @@
-
 /* text align in CSS */
 
 h2 {
@@ -13,10 +12,12 @@ h1 {
     /* font weight is lightness or boldness */
     /* normal will make a header into its normal weight */
     /* 400 is normal */
-    font-weight: normal;
+    font-weight: 400;
     /* you can add a line-through in the text, change teh color of it
     and then mess with the actual line "shape */
+    letter-spacing: 10px;
     text-decoration: orange underline wavy;
+    font-size: 80px;
 }
 
 a {
@@ -29,4 +30,10 @@ a {
 
 p {
     line-height: 2;
+    /* to change font (not as simple as you think) */
+    /* each browser only supports certain fonts. So 
+    you might need to find common fonts*/
+    /* font family will set conditional-like font setting. If you dont have 
+    one use the next one.*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
