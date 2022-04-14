@@ -37,3 +37,34 @@ p {
     one use the next one.*/
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+/* selectors */
+/* you can select by elements, classes, ID, Descendents, etc */
+/* CSS specifity, refers to how CSS works in conflicts
+helps for writing better CSS and to debug*/
+
+/* You can use a comma to separate two separate 
+tags/areas, that you want to edit the same. */
+
+
+/* another common CSS selector is the class selector */
+/* .classname { 
+    
+ } */
+
+.class-selector {
+    color: white;
+}
+
+/* summary */
+/* class selector is  "." */
+/* id selector is "#" */
+/* all selector is "*" */
+/* selecting two different tag names or items to edit, use a comma between them. "selector1, selector2" */
+/* all selector is "*" */
+/* adjacent selector, apply to more than one tag --> tag1 + tag2 */
+
+/* descendent selector */
+
+/* if we want to edit tags within other tags, so that we don't change all tags, we will write the first tag, then the nested
+with spaces > tag1 nested_tag {} */
