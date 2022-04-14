@@ -1,0 +1,68 @@
+/* text align in CSS */
+
+h2 {
+    text-align: right;
+    /* text align only operates within the content of box. *lookup more info. */
+    width: 50%;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    /* font weight is lightness or boldness */
+    /* normal will make a header into its normal weight */
+    /* 400 is normal */
+    font-weight: 400;
+    /* you can add a line-through in the text, change teh color of it
+    and then mess with the actual line "shape */
+    letter-spacing: 10px;
+    text-decoration: orange underline wavy;
+    font-size: 80px;
+}
+
+a {
+    /* removes underline from reference text/hyperlink */
+    text-decoration: none;
+    letter-spacing: 10px;
+}
+
+/* messing with line height (spacing), and letter spacing */
+
+p {
+    line-height: 2;
+    /* to change font (not as simple as you think) */
+    /* each browser only supports certain fonts. So 
+    you might need to find common fonts*/
+    /* font family will set conditional-like font setting. If you dont have 
+    one use the next one.*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* selectors */
+/* you can select by elements, classes, ID, Descendents, etc */
+/* CSS specifity, refers to how CSS works in conflicts
+helps for writing better CSS and to debug*/
+
+/* You can use a comma to separate two separate 
+tags/areas, that you want to edit the same. */
+
+
+/* another common CSS selector is the class selector */
+/* .classname { 
+    
+ } */
+
+.class-selector {
+    color: white;
+}
+
+/* summary */
+/* class selector is  "." */
+/* id selector is "#" */
+/* all selector is "*" */
+/* selecting two different tag names or items to edit, use a comma between them. "selector1, selector2" */
+/* all selector is "*" */
+/* adjacent selector, apply to more than one tag --> tag1 + tag2 */
+/* Direct child/descendent selector is > so --> selector1 > selector2 */
+
+/* attribute selector  */
