@@ -77,3 +77,14 @@ button:hover {
 a:hover {
     text-decoration: underline;
 }
+
+/* can also do :checked, for check boxes */
+/* there are pseudo classes used with specific html items. */
+
+/* :nth-of-type() is used to do every other post, or specific items. */
+
+/* if you want every 3rd, you use :nth-of-:type(3n) */
+/* If you want just the 3rd, you do :nth-of-type(3) */
+
+/* there are also pseudo elements, to pick specific aspects of elements. 
+they use :: not : */
