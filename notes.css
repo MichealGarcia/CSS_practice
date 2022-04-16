@@ -65,4 +65,15 @@ tags/areas, that you want to edit the same. */
 /* adjacent selector, apply to more than one tag --> tag1 + tag2 */
 /* Direct child/descendent selector is > so --> selector1 > selector2 */
 
-/* attribute selector  */
+
+
+/* Pseudo classes */
+
+button:hover {
+    color: red;
+    background-color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
